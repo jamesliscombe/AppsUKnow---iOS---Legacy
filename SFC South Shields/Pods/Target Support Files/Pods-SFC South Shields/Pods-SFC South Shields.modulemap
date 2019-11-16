@@ -1,0 +1,6 @@
+framework module Pods_SFC_South_Shields {
+  umbrella header "Pods-SFC South Shields-umbrella.h"
+
+  export *
+  module * { export * }
+}

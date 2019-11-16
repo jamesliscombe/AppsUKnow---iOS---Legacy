@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="113" id="KGk-i7-Jjw" customClass="DealBasketTableViewCell" customModule="AppsUKnow_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="112.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lkt-Cs-FbA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="112.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ea-Xl-bcK">
+                                <rect key="frame" x="8" y="8" width="210" height="97"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCt-Jz-7Zh">
+                                <rect key="frame" x="243" y="8" width="69" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="0.90266481164383561" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Ea-Xl-bcK" firstAttribute="top" secondItem="Lkt-Cs-FbA" secondAttribute="top" constant="8" id="Qoe-dR-cco"/>
+                            <constraint firstAttribute="trailing" secondItem="PCt-Jz-7Zh" secondAttribute="trailing" constant="8" id="nQP-74-HNP"/>
+                            <constraint firstItem="PCt-Jz-7Zh" firstAttribute="leading" secondItem="2Ea-Xl-bcK" secondAttribute="trailing" constant="25" id="pKT-VC-don"/>
+                            <constraint firstItem="PCt-Jz-7Zh" firstAttribute="top" secondItem="Lkt-Cs-FbA" secondAttribute="top" constant="8" id="tlZ-5N-yXb"/>
+                            <constraint firstItem="2Ea-Xl-bcK" firstAttribute="leading" secondItem="Lkt-Cs-FbA" secondAttribute="leading" constant="8" id="uqT-qv-roc"/>
+                            <constraint firstAttribute="trailing" secondItem="2Ea-Xl-bcK" secondAttribute="trailing" constant="102" id="yD8-yG-DjM"/>
+                            <constraint firstAttribute="bottom" secondItem="2Ea-Xl-bcK" secondAttribute="bottom" constant="7.5" id="yzo-LA-cS1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lkt-Cs-FbA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9jV-RG-1Ey"/>
+                    <constraint firstAttribute="bottom" secondItem="Lkt-Cs-FbA" secondAttribute="bottom" id="FuM-k2-9g3"/>
+                    <constraint firstItem="Lkt-Cs-FbA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bpL-8w-zXR"/>
+                    <constraint firstAttribute="trailing" secondItem="Lkt-Cs-FbA" secondAttribute="trailing" id="wvE-04-6BX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.5" green="0.04202042557642427" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dealInfoLabel" destination="2Ea-Xl-bcK" id="GdL-pZ-UlW"/>
+                <outlet property="dealPrice" destination="PCt-Jz-7Zh" id="jpX-sp-unM"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="184.85757121439281"/>
+        </tableViewCell>
+    </objects>
+</document>

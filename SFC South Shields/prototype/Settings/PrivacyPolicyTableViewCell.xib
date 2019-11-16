@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="KGk-i7-Jjw" customClass="PrivacyPolicyTableViewCell" customModule="AppsUKnow_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="46.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCV-Lq-7Ve">
+                        <rect key="frame" x="5" y="5" width="310" height="36.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sX2-LA-6hx">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="37"/>
+                                <mutableString key="text">Privacy Policy
+
+Effective date: January 04, 2019
+
+AppsUKnow Ltd ("us", "we", or "our") operates (with the exclusion of the menu content) this mobile application. AppsUKnow Ltd is a software development company registered in England. Company number: 11128487. Registered office address: 13 Walworth Avenue, South Shields, England, NE34 7EP. Web address: https://appsuknow.com.
+
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+
+At any time, you have the right to be forgotten by AppsUKnow Ltd, and this page informs you on the process involved to achieve this.
+
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
+
+Information Collection and Use
+
+We collect several different types of information for various purposes to provide and improve our Service to you.
+
+Types of Data Collected
+
+Personal Data
+
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
+
+-	Email address
+-	First name and last name
+-	Phone number
+-	Address, State, Province, ZIP/Postal code, City
+-	Cookies and Usage Data
+
+Usage Data
+
+When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").
+
+Use of Data
+
+AppsUKnow Ltd uses the collected data for various purposes:
+
+-	To provide and maintain the Service
+-	To notify you about changes to our Service
+-	To allow you to participate in interactive features of our Service when you choose to do so
+-	To provide customer care and support
+-	To provide analysis or valuable information so that we can improve the Service
+-	To monitor the usage of the Service
+-	To detect, prevent and address technical issues
+
+Transfer of Data
+
+Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+
+If you are located outside United Kingdom and choose to provide information to us, please note that we transfer the data, including Personal Data, to United Kingdom and process it there.
+
+Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+
+AppsUKnow Ltd will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+
+Disclosure of Data
+
+Legal Requirements
+
+AppsUKnow Ltd may disclose your Personal Data in the good faith belief that such action is necessary to:
+
+-	To comply with a legal obligation
+-	To protect and defend the rights or property of AppsUKnow Ltd
+-	To prevent or investigate possible wrongdoing in connection with the Service
+-	To protect the personal safety of users of the Service or the public
+-	To protect against legal liability
+
+Service Providers
+
+We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analysing how our Service is used.
+
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+
+Links to Other Sites
+
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+Children’s Privacy
+
+Our Service does not address anyone under the age of 18 ("Children").
+
+We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+
+Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+Right to Be Forgotten
+
+As a Data Subject (“you”), you hold the right to be forgotten from our databases. We will ensure that within 1 month of your request reaching us, any data that can identify you will be removed. 
+
+Upon the request to be forgotten, final steps will be taken if a purchase through our system has taken place that involved electronic payment (card payment). This is to prevent fraudulent payments. 
+
+We may, contact the bank/payment provider associated with the payment details to ensure it has been authorised before removing personal records such as name and address.
+
+Upon your request to be forgotten, we will replace any personal details with a GDPR (General Data Protection Regulation) record. 
+
+If you wish to be forgotten by AppsUKnow Ltd, please follow the ‘Contact Us’ section below, and provide us with as much information regarding your order history as possible. 
+
+Contact Us
+
+If you have any questions about this Privacy Policy, please contact us:
+
+By email: support@appsuknow.com
+</mutableString>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sX2-LA-6hx" secondAttribute="trailing" id="E7H-UJ-vYC"/>
+                            <constraint firstItem="sX2-LA-6hx" firstAttribute="leading" secondItem="rCV-Lq-7Ve" secondAttribute="leading" id="aPT-Xf-ACq"/>
+                            <constraint firstItem="sX2-LA-6hx" firstAttribute="top" secondItem="rCV-Lq-7Ve" secondAttribute="top" id="ppS-1t-ADn"/>
+                            <constraint firstAttribute="bottom" secondItem="sX2-LA-6hx" secondAttribute="bottom" constant="-0.5" id="tsa-Mj-bvV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rCV-Lq-7Ve" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="N2T-El-Cxn"/>
+                    <constraint firstItem="rCV-Lq-7Ve" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ctQ-od-eXK"/>
+                    <constraint firstAttribute="bottom" secondItem="rCV-Lq-7Ve" secondAttribute="bottom" constant="5" id="eJl-kZ-FgU"/>
+                    <constraint firstAttribute="trailing" secondItem="rCV-Lq-7Ve" secondAttribute="trailing" constant="5" id="rmR-tl-N8N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.59999999999999" y="155.17241379310346"/>
+        </tableViewCell>
+    </objects>
+</document>

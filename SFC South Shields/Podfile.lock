@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Stripe (13.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Stripe
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Stripe
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Stripe: 76c203e21555089b708e6cbe972a3e3baf1ab4d8
+
+PODFILE CHECKSUM: c42b3211bb7a9d70d7a590a42e656800ebe715f5
+
+COCOAPODS: 1.6.0

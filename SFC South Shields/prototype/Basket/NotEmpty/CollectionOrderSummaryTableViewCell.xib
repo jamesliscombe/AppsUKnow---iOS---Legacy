@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="KGk-i7-Jjw" customClass="CollectionOrderSummaryTableViewCell" customModule="prototype" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ure-M8-81J">
+                        <rect key="frame" x="0.0" y="0.0" width="382" height="67.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7oh-Wh-5sz">
+                                <rect key="frame" x="8" y="36" width="223" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBTOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Eek-29-Zbv">
+                                <rect key="frame" x="8" y="8" width="223" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBTOTAL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PLb-3c-bBf">
+                                <rect key="frame" x="267" y="8" width="107" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="68h-gD-vdj">
+                                <rect key="frame" x="267" y="34" width="107" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="0.90301262842465757" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="68h-gD-vdj" firstAttribute="top" secondItem="PLb-3c-bBf" secondAttribute="bottom" constant="4" id="2bt-in-r3u"/>
+                            <constraint firstItem="Eek-29-Zbv" firstAttribute="leading" secondItem="094-bw-ia7" secondAttribute="leading" constant="8" id="3k9-3B-uiV"/>
+                            <constraint firstItem="7oh-Wh-5sz" firstAttribute="leading" secondItem="094-bw-ia7" secondAttribute="leading" constant="8" id="5Wk-Gw-XjP"/>
+                            <constraint firstItem="Eek-29-Zbv" firstAttribute="top" secondItem="094-bw-ia7" secondAttribute="top" constant="8" id="5kK-sv-s8N"/>
+                            <constraint firstItem="7oh-Wh-5sz" firstAttribute="top" secondItem="Ure-M8-81J" secondAttribute="top" constant="36" id="7We-Bo-IYM"/>
+                            <constraint firstItem="PLb-3c-bBf" firstAttribute="leading" secondItem="Ure-M8-81J" secondAttribute="leading" constant="267" id="Afu-Pe-AOU"/>
+                            <constraint firstItem="PLb-3c-bBf" firstAttribute="top" secondItem="094-bw-ia7" secondAttribute="top" constant="8" id="Gdf-8n-JZj"/>
+                            <constraint firstItem="094-bw-ia7" firstAttribute="bottom" secondItem="7oh-Wh-5sz" secondAttribute="bottom" constant="9.5" id="IpN-Yv-1mw"/>
+                            <constraint firstAttribute="trailing" secondItem="Eek-29-Zbv" secondAttribute="trailing" constant="151" id="JRw-KB-Qyj"/>
+                            <constraint firstItem="094-bw-ia7" firstAttribute="trailing" secondItem="68h-gD-vdj" secondAttribute="trailing" constant="8" id="K1D-Tp-Lua"/>
+                            <constraint firstItem="094-bw-ia7" firstAttribute="trailing" secondItem="PLb-3c-bBf" secondAttribute="trailing" constant="8" id="YYS-j0-Vgp"/>
+                            <constraint firstAttribute="trailing" secondItem="7oh-Wh-5sz" secondAttribute="trailing" constant="151" id="wSU-hx-PtE"/>
+                            <constraint firstItem="68h-gD-vdj" firstAttribute="leading" secondItem="Ure-M8-81J" secondAttribute="leading" constant="267" id="zmp-Db-F5C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="094-bw-ia7"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.97717718908629436" green="0.97717718908629436" blue="0.97717718908629436" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Ure-M8-81J" secondAttribute="bottom" id="BWv-7L-G99"/>
+                    <constraint firstItem="Ure-M8-81J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IPO-Qi-IHC"/>
+                    <constraint firstAttribute="trailing" secondItem="Ure-M8-81J" secondAttribute="trailing" id="ebw-Vo-zKo"/>
+                    <constraint firstItem="Ure-M8-81J" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rpx-SM-fln"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97717718908629436" green="0.97717718908629436" blue="0.97717718908629436" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="subtotalLabel" destination="PLb-3c-bBf" id="Ypn-bN-lTK"/>
+                <outlet property="totalLabel" destination="68h-gD-vdj" id="lTb-P3-7wl"/>
+            </connections>
+            <point key="canvasLocation" x="1.6000000000000001" y="65.667166416791616"/>
+        </tableViewCell>
+    </objects>
+</document>

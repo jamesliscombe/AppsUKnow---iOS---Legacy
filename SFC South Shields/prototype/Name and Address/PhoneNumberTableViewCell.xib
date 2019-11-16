@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PhoneNumberTableViewCell" customModule="AppsUKnow_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdB-8A-8Ub">
+                        <rect key="frame" x="0.0" y="0.5" width="320" height="44.5"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="phoneNumber" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G4D-TC-z2X">
+                                <rect key="frame" x="8" y="6.5" width="304" height="32"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="tel"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="G4D-TC-z2X" secondAttribute="bottom" constant="6" id="1oY-AC-36a"/>
+                            <constraint firstItem="G4D-TC-z2X" firstAttribute="top" secondItem="FdB-8A-8Ub" secondAttribute="top" constant="6" id="Flc-CX-adW"/>
+                            <constraint firstAttribute="trailing" secondItem="G4D-TC-z2X" secondAttribute="trailing" constant="8" id="Jqk-8O-CT4"/>
+                            <constraint firstAttribute="height" constant="44" id="VZN-XC-dS0"/>
+                            <constraint firstItem="G4D-TC-z2X" firstAttribute="leading" secondItem="FdB-8A-8Ub" secondAttribute="leading" constant="8" id="d5c-6T-qML"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FdB-8A-8Ub" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BUb-jH-fw3"/>
+                    <constraint firstItem="FdB-8A-8Ub" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="0.5" id="Bbo-vo-9mW"/>
+                    <constraint firstAttribute="trailing" secondItem="FdB-8A-8Ub" secondAttribute="trailing" id="GOd-mR-Ygv"/>
+                    <constraint firstAttribute="bottom" secondItem="FdB-8A-8Ub" secondAttribute="bottom" constant="0.5" id="U7E-j4-8A2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="phoneNumberTextField" destination="G4D-TC-z2X" id="KPv-4b-0OI"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

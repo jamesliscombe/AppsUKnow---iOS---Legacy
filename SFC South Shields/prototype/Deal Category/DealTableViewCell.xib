@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="65" id="KGk-i7-Jjw" customClass="DealTableViewCell" customModule="AppsUKnow_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xu8-dv-1g8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="XCB-Vg-pT7">
+                                <rect key="frame" x="8" y="11" width="173" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVi-Yj-eSx">
+                                <rect key="frame" x="226" y="10" width="55" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4T-FL-jat">
+                                <rect key="frame" x="8" y="37" width="291" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Next" translatesAutoresizingMaskIntoConstraints="NO" id="10m-NO-del">
+                                <rect key="frame" x="297.5" y="25" width="14.5" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14.5" id="6lo-jM-dh9"/>
+                                    <constraint firstAttribute="height" constant="14.5" id="INR-3T-jNt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.96999999999999997" alpha="0.90097923801369861" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="S4T-FL-jat" secondAttribute="trailing" constant="21" id="7ms-fT-5pT"/>
+                            <constraint firstAttribute="trailing" secondItem="IVi-Yj-eSx" secondAttribute="trailing" constant="39" id="8o8-cg-XtN"/>
+                            <constraint firstItem="S4T-FL-jat" firstAttribute="top" secondItem="xu8-dv-1g8" secondAttribute="top" constant="37" id="9Xx-Mf-C0q"/>
+                            <constraint firstItem="IVi-Yj-eSx" firstAttribute="leading" secondItem="XCB-Vg-pT7" secondAttribute="trailing" constant="45" id="Bxf-Za-rmM"/>
+                            <constraint firstAttribute="bottom" secondItem="S4T-FL-jat" secondAttribute="bottom" constant="3" id="HA7-Lh-IGs"/>
+                            <constraint firstAttribute="trailing" secondItem="XCB-Vg-pT7" secondAttribute="trailing" constant="139" id="NS5-EX-kgu"/>
+                            <constraint firstAttribute="trailing" secondItem="10m-NO-del" secondAttribute="trailing" constant="8" id="SIf-hM-mGI"/>
+                            <constraint firstItem="10m-NO-del" firstAttribute="centerY" secondItem="xu8-dv-1g8" secondAttribute="centerY" id="TPt-R0-abz"/>
+                            <constraint firstItem="XCB-Vg-pT7" firstAttribute="leading" secondItem="xu8-dv-1g8" secondAttribute="leading" constant="8" id="gdj-V8-cYn"/>
+                            <constraint firstItem="S4T-FL-jat" firstAttribute="leading" secondItem="xu8-dv-1g8" secondAttribute="leading" constant="8" id="kmM-mV-85T"/>
+                            <constraint firstItem="IVi-Yj-eSx" firstAttribute="top" secondItem="xu8-dv-1g8" secondAttribute="top" constant="10" id="sDx-js-SQv"/>
+                            <constraint firstItem="XCB-Vg-pT7" firstAttribute="top" secondItem="xu8-dv-1g8" secondAttribute="top" constant="11" id="uaM-2E-2rn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xu8-dv-1g8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GQD-qK-eAB"/>
+                    <constraint firstAttribute="bottom" secondItem="xu8-dv-1g8" secondAttribute="bottom" constant="0.5" id="GZn-9m-Pzq"/>
+                    <constraint firstAttribute="trailing" secondItem="xu8-dv-1g8" secondAttribute="trailing" id="LY9-XH-Gil"/>
+                    <constraint firstItem="xu8-dv-1g8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wre-4r-WmV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundUIView" destination="xu8-dv-1g8" id="fxR-PZ-QPN"/>
+                <outlet property="dealDescriptionLabel" destination="S4T-FL-jat" id="ePZ-2G-8LX"/>
+                <outlet property="dealNameLabel" destination="XCB-Vg-pT7" id="E93-V4-uts"/>
+                <outlet property="dealPriceLabel" destination="IVi-Yj-eSx" id="H9I-TZ-d28"/>
+            </connections>
+            <point key="canvasLocation" x="57.600000000000001" y="58.020989505247378"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Next" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
+</document>

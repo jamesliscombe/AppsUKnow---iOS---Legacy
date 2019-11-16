@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="23" id="KGk-i7-Jjw" customClass="MinimumOrderForDeliveryNotReachedTableViewCell" customModule="prototype" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="23"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="384" height="22.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Htb-uJ-saY">
+                        <rect key="frame" x="0.0" y="0.0" width="384" height="22.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum order for delivery not reached" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="vWH-Oc-qfT">
+                                <rect key="frame" x="8" y="3.5" width="368" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8929251269035533" green="0.45768863040192365" blue="0.027711802953806181" alpha="0.5998234160958904" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="BTl-8D-XMX"/>
+                            <constraint firstAttribute="trailing" secondItem="vWH-Oc-qfT" secondAttribute="trailing" constant="8" id="TYY-k0-lns"/>
+                            <constraint firstAttribute="bottom" secondItem="vWH-Oc-qfT" secondAttribute="bottom" constant="2.5" id="b7B-y3-qvM"/>
+                            <constraint firstItem="vWH-Oc-qfT" firstAttribute="leading" secondItem="Htb-uJ-saY" secondAttribute="leading" constant="8" id="oEj-VT-En1"/>
+                            <constraint firstItem="vWH-Oc-qfT" firstAttribute="top" secondItem="Htb-uJ-saY" secondAttribute="top" constant="3" id="oaU-fW-kCv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.37727916666575828" green="0.39740645781745798" blue="0.65607154187817263" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Htb-uJ-saY" secondAttribute="bottom" constant="1" id="Bsn-R8-7wO"/>
+                    <constraint firstAttribute="trailing" secondItem="Htb-uJ-saY" secondAttribute="trailing" id="Mfp-he-Pa4"/>
+                    <constraint firstItem="Htb-uJ-saY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="MhX-jw-5WH"/>
+                    <constraint firstItem="Htb-uJ-saY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jtw-nk-NB1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.37727916666575828" green="0.39740645781745798" blue="0.65607154187817263" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="0.0" y="47.226386806596707"/>
+        </tableViewCell>
+    </objects>
+</document>

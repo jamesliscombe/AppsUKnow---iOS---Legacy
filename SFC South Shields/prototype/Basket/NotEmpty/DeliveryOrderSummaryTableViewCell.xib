@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="KGk-i7-Jjw" customClass="DeliveryOrderSummaryTableViewCell" customModule="prototype" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="92.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPN-3k-zoN">
+                        <rect key="frame" x="0.0" y="1" width="322" height="90.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7jO-HW-SeG">
+                                <rect key="frame" x="8" y="60" width="213" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Charge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eZQ-hh-qtR">
+                                <rect key="frame" x="8" y="34" width="154" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBTOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uAl-OA-9xf">
+                                <rect key="frame" x="8" y="8" width="154" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBTOTAL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jbe-rb-ZgO">
+                                <rect key="frame" x="229" y="8" width="85" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBTOTAL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WBv-y3-IoR">
+                                <rect key="frame" x="229" y="34" width="85" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GfC-oa-sPz">
+                                <rect key="frame" x="229" y="60" width="85" height="22"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="0.90138056506849318" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WBv-y3-IoR" firstAttribute="top" secondItem="jbe-rb-ZgO" secondAttribute="bottom" constant="4" id="4CV-kE-g7q"/>
+                            <constraint firstAttribute="trailing" secondItem="GfC-oa-sPz" secondAttribute="trailing" constant="8" id="JKs-q5-sGX"/>
+                            <constraint firstItem="7jO-HW-SeG" firstAttribute="top" secondItem="eZQ-hh-qtR" secondAttribute="bottom" constant="4" id="Jj2-Hk-1ZT"/>
+                            <constraint firstItem="GfC-oa-sPz" firstAttribute="leading" secondItem="FPN-3k-zoN" secondAttribute="leading" constant="229" id="Qiq-GV-Gth"/>
+                            <constraint firstItem="eZQ-hh-qtR" firstAttribute="top" secondItem="uAl-OA-9xf" secondAttribute="bottom" constant="4" id="V4y-ZT-8kg"/>
+                            <constraint firstItem="uAl-OA-9xf" firstAttribute="leading" secondItem="FPN-3k-zoN" secondAttribute="leading" constant="8" id="XCU-PK-TXw"/>
+                            <constraint firstItem="uAl-OA-9xf" firstAttribute="top" secondItem="FPN-3k-zoN" secondAttribute="top" constant="8" id="di9-r4-IKs"/>
+                            <constraint firstItem="7jO-HW-SeG" firstAttribute="leading" secondItem="FPN-3k-zoN" secondAttribute="leading" constant="8" id="ebK-UM-OL6"/>
+                            <constraint firstItem="jbe-rb-ZgO" firstAttribute="top" secondItem="FPN-3k-zoN" secondAttribute="top" constant="8" id="gMB-pQ-vWH"/>
+                            <constraint firstAttribute="trailing" secondItem="7jO-HW-SeG" secondAttribute="trailing" constant="101" id="hbs-iw-U96"/>
+                            <constraint firstItem="WBv-y3-IoR" firstAttribute="leading" secondItem="FPN-3k-zoN" secondAttribute="leading" constant="229" id="j1O-Pa-3cx"/>
+                            <constraint firstItem="jbe-rb-ZgO" firstAttribute="leading" secondItem="FPN-3k-zoN" secondAttribute="leading" constant="229" id="jPG-Rb-mNd"/>
+                            <constraint firstAttribute="trailing" secondItem="WBv-y3-IoR" secondAttribute="trailing" constant="8" id="knl-sM-DFc"/>
+                            <constraint firstAttribute="trailing" secondItem="uAl-OA-9xf" secondAttribute="trailing" constant="160" id="n6c-1M-jHx"/>
+                            <constraint firstAttribute="trailing" secondItem="eZQ-hh-qtR" secondAttribute="trailing" constant="160" id="oxi-Tw-2Vi"/>
+                            <constraint firstAttribute="trailing" secondItem="jbe-rb-ZgO" secondAttribute="trailing" constant="8" id="qre-pu-6hA"/>
+                            <constraint firstItem="eZQ-hh-qtR" firstAttribute="leading" secondItem="FPN-3k-zoN" secondAttribute="leading" constant="8" id="rvq-Ai-Iks"/>
+                            <constraint firstAttribute="bottom" secondItem="7jO-HW-SeG" secondAttribute="bottom" constant="8.5" id="sOk-5F-tao"/>
+                            <constraint firstItem="GfC-oa-sPz" firstAttribute="top" secondItem="WBv-y3-IoR" secondAttribute="bottom" constant="4" id="upo-xa-6q6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.97717718908629436" green="0.97717718908629436" blue="0.97717718908629436" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="FPN-3k-zoN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="FiF-he-6AC"/>
+                    <constraint firstAttribute="trailing" secondItem="FPN-3k-zoN" secondAttribute="trailing" id="aQs-xI-9I8"/>
+                    <constraint firstAttribute="bottom" secondItem="FPN-3k-zoN" secondAttribute="bottom" constant="1" id="klR-Sa-6uG"/>
+                    <constraint firstItem="FPN-3k-zoN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oo3-xA-jm9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97717718908629436" green="0.97717718908629436" blue="0.97717718908629436" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="deliveryChargeLabel" destination="WBv-y3-IoR" id="V6B-vU-ozJ"/>
+                <outlet property="subtotalLabel" destination="jbe-rb-ZgO" id="5DZ-IC-fer"/>
+                <outlet property="totalLabel" destination="GfC-oa-sPz" id="sdO-jk-1io"/>
+            </connections>
+            <point key="canvasLocation" x="33.600000000000001" y="77.811094452773617"/>
+        </tableViewCell>
+    </objects>
+</document>
